@@ -1,4 +1,4 @@
-fetch("https://backend-raitec.onrender.com/api")
+fetch("https://raitec-backend-eak9.onrender.com//api")
   .then(resposta => resposta.json())
   .then(dados => {
     document.getElementById("mensagem").innerText = dados.mensagem;
